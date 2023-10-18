@@ -91,3 +91,47 @@ body {
   text-decoration: none;
   color: #151515;
 }
+
+/* footer */
+.page-footer {
+  background-color: #1C1C1F;
+  color: #FFFBF5;
+}
+
+.page-footer-mail {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 40px;
+  text-decoration: none;
+  color: #FFFBF5;
+}
+
+.page-footer-phone {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 40px;
+  text-decoration: none;
+  color: #FFFBF5;
+}
+
+.page-footer-link {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  text-decoration: none;
+  color: #FFFBF5;
+}
+
+.page-footer-copyright {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14px;
+  color: #8E8E8E;
+}
+
+.page-footer-privacy {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14px;
+  color: #8E8E8E;
+}
