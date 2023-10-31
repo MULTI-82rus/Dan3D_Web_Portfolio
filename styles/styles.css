@@ -46,7 +46,7 @@ html {
 
 body {
   font-family: "Montserrat", "Arial", sans-serif;
-  margin: 0;
+  margin: 0 auto;
   min-height: 100%;
   /* width: 1920px; */
   min-width: 320px;
@@ -60,10 +60,14 @@ body {
 }
 
 /* page-header */
+.page-header {
+  margin-bottom: 97px;
+}
+
 .page-header-container {
   /* width: 1920px; */
   /* min-width: 320px; */
-  margin: 15px 64px 17px 64px;
+  margin: 15px 64px 0 64px;
   /* margin: 0 64px 97px 64px; */
   /* padding: 15px 64px 17px 64px; */
   /* padding-top: 15px; */
@@ -111,28 +115,32 @@ body {
 /* main */
 .main-index-container {
   flex-grow: 1;
-  max-width: 1312px;
-  margin: 0 64px;
+  /* max-width: 1920px; */
+  /* margin: 0 64px; */
 }
 
 /* hero-index */
+.hero-index {
+  margin-bottom: 160px;
+}
+
 .hero-index-container {
-  width: 1312px;
-  margin-bottom: 120px;
+  /* width: 1312px; */
+  margin: 0 64px;
 }
 
 .hero-title {
   margin: 0;
-  padding-bottom: 40px;
-  width: 799px;
-  font-size: 70px;
+  padding-bottom: 56px;
+  width: 1184px;
+  font-size: 90px;
   font-weight: 400;
-  line-height: 80px;
+  line-height: 104px;
 }
 
 .hero-desc {
   margin: 0;
-  width: 750px;
+  width: 1184px;
 }
 
 .hero-title-violet {
@@ -165,6 +173,10 @@ body {
   line-height: 40px;
   text-decoration: none;
   color: #151515;
+}
+
+.last-cases-image {
+  background-color: #EEEBF0;
 }
 
 /* footer */
