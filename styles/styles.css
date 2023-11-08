@@ -152,31 +152,50 @@ body {
 }
 
 /* last-cases */
+.last-cases-container {
+  margin: 0 64px;
+}
+
 .last-cases-list {
   list-style: none;
   margin: 0;
   padding: 0;
-  /* display: flex;
-  flex-wrap: wrap; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.last-cases-item {
+  width: 576px;
+  height: 830px;
+  margin-bottom: 64px;
+}
+
+.last-cases-link {
+  width: 576px;
+  height: 640px;
+  margin-bottom: 24px;
+  display: inline-block;
+}
+
+.last-cases-image {
+  background-color: #EEEBF0;
 }
 
 .last-cases-hashtag {
+  margin: 0 0 16px 0;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
   color: #8E8E8E;
 }
 
-.last-cases-link {
+.last-cases-link-desc {
   font-size: 28px;
   font-weight: 500;
-  line-height: 40px;
+  line-height: 42px;
   text-decoration: none;
   color: #151515;
-}
-
-.last-cases-image {
-  background-color: #EEEBF0;
 }
 
 /* footer */
