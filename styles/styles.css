@@ -140,8 +140,8 @@ body {
 }
 
 .hero-title {
-  margin: 0;
-  padding-bottom: 56px;
+  margin: 0 0 56px;
+  /* padding-bottom: 56px; */
   width: 1184px;
   font-size: 90px;
   font-weight: 400;
@@ -163,6 +163,7 @@ body {
 
 /* last-cases */
 .last-cases-container {
+  /* width: 1792px; */
   margin: 0 64px;
 }
 
@@ -173,12 +174,14 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  row-gap: 64px;
+  /* gap: 64px 32px; */
 }
 
 .last-cases-item {
   width: 576px;
   height: 830px;
-  margin-bottom: 64px;
+  /* margin-bottom: 64px; */
 }
 
 .last-cases-link {
@@ -239,6 +242,7 @@ body {
 .page-footer-contacts-inner {
   display: flex;
   flex-direction: column;
+  font-style: normal;
 }
 
 .page-footer-mail {
